@@ -7,6 +7,10 @@ void input () {
     cout << "Masukkan Bilangan Pertama = ";
     cin >> bilSatu;
     cout << "Masukkan Bilangan Kedua = ";
-    cin >> bilDua;
-    
+    cin >> bilDua;   
+}
+
+float penjumlahan(float a,float b)
+{
+    return a + b;
 }
