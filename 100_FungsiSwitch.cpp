@@ -33,7 +33,18 @@ float pembagian(float a,float b)
 int main () {
     int pilihan;
 
-    do{
+    do
+    {
+        cout << "===================================" << endl;
+        cout << "MENu" << endl;
+        cout << "1. Penjumlahan " << endl;
+        cout << "2. Pengurangan " << endl;
+        cout << "3. Perkalian " << endl;
+        cout << "4. Pembagian " << endl;
+        cout << "5. Exit" << endl;
+        cout << "Masukkan pilihan sesuai angka diatas : ";
+        cin >> pilihan;
+
         while (/* condition */)
         {
             /* code */
