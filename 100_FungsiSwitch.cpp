@@ -45,9 +45,17 @@ int main () {
         cout << "Masukkan pilihan sesuai angka diatas : ";
         cin >> pilihan;
 
-        while (/* condition */)
+        switch (pilihan)
         {
-            /* code */
+            case 1: 
+            input ();
+            cout << "Hasil Penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+            break;
+
+            case 2:
+            input ();
+            cout << "Hasil Pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+            break;
         }
         
     }
