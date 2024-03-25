@@ -30,7 +30,8 @@ float pembagian(float a,float b)
     return a / b;
 }
 
-int main () {
+int main () 
+{
     int pilihan;
 
     do
@@ -55,6 +56,11 @@ int main () {
             case 2:
             input ();
             cout << "Hasil Pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+            break;
+
+            case 3:
+            input ();
+            cout << "Hasil Perkalian = " << perkalian(bilSatu, bilDua) << endl;
             break;
         }
         
