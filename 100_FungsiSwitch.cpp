@@ -29,3 +29,15 @@ float pembagian(float a,float b)
 {
     return a / b;
 }
+
+int main () {
+    int pilihan;
+
+    do{
+        while (/* condition */)
+        {
+            /* code */
+        }
+        
+    }
+}
